@@ -72,12 +72,10 @@ registerBlockType( 'css-columns-wrapper-block-wp-plugin/wrapper-block', {
 			colNumber = '',
 		} = attributes;
 
-		let styles = {};
 		let classes = className;
 
 		// Only set attributes when number is chosen
 		if ( '' !== colNumber ) {
-			styles = { 'columns': `${ colNumber }` };
 			// Use classnames library to join all classes together
 			classes = classNames( colNumber > 1 ? `has-${ colNumber }-auto-columns` : '', classes );
 		}
@@ -85,7 +83,6 @@ registerBlockType( 'css-columns-wrapper-block-wp-plugin/wrapper-block', {
 		return (
 			<div
 				className={ classes }
-				style={ styles }
 			>
 				<InnerBlocks.Content />
 			</div>
