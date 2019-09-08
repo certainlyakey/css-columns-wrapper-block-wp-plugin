@@ -1,13 +1,13 @@
 {
-	"name": "wrapper-block-example",
+	"name": "css-columns-wrapper-block",
 	"version": "1.0.0",
-	"description": "Example how to create a wrapper block for Gutenberg in WordPress",
+	"description": "A WordPress plugin that adds a Gutenberg block which allows to wrap other blocks into multiple autoflowing columns",
 	"scripts": {
-		"start": "parcel watch --no-hmr assets/js/wrapper-block-example.js -d dist",
-		"build": "parcel build assets/js/wrapper-block-example.js -d dist",
+		"start": "parcel watch --no-hmr assets/js/css-columns-wrapper-block.js -d dist",
+		"build": "parcel build assets/js/css-columns-wrapper-block.js -d dist",
 		"lint": "eslint assets/js"
 	},
-	"author": "Liip AG",
+	"author": "certainlyakey",
 	"devDependencies": {
 		"babel-core": "^6.26.3",
 		"babel-eslint": "^10.0.1",
