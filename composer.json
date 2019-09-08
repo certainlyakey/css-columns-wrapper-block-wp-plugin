@@ -1,0 +1,9 @@
+{
+  "name": "certainlyakey/css-columns-wrapper-block-wp-plugin",
+  "description": "A WordPress plugin that adds a Gutenberg block to wrap content into predefined number of CSS columns.",
+  "type": "wordpress-plugin",
+  "minimum-stability": "dev",
+  "require": {
+    "composer/installers": "~1.0"
+  }
+}
